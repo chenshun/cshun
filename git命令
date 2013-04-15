@@ -5,3 +5,6 @@ git fetch origin
 git merge origin/master
 
 git push origin master
+***
+
+git checkout -b design-mambers-new upstream/develop
