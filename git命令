@@ -9,4 +9,6 @@ git push origin master
 
 git checkout -b design-mambers-new upstream/develop
 
-git rebase -i origin
+git rebase -i origin    //将从origin分支开始的所有补丁依次打到主分支上
+
+git rebase -abort   //放弃rebase过程
