@@ -9,4 +9,4 @@ git push origin master
 
 git checkout -b design-mambers-new upstream/develop
 
-git rebase -i 
+git rebase -i origin
