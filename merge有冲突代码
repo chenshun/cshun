@@ -7,6 +7,17 @@
 *git merge extensivepro-develop //把新pull的分支与原来分支合并
 
 *git push origin develop //推到上游
+***
+
+发现冲突
+
+一般来讲，出现冲突时都会有“CONFLICT”字样：
+Auto-merging service/test/support/collection.js
+CONFLICT (content): Merge conflict in service/test/support/collection.js
+Automatic merge failed; fix conflicts and then commit the result.
+
+这个时候，需要进入报错的项目（git库）目录，然后执行git rebase解决
+*git rebase remote-branch-name
 
 
 
