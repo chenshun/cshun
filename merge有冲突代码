@@ -8,7 +8,9 @@
 
 *git merge newBranchName //把新pull的分支与原来分支合并
 
-*git push upstream develop //推到上游
+*git push origin develop //把代码提交到自己账号
+
+*git push upstream develop //把代码提交到上游
 ***
 
 发现冲突
