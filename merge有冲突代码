@@ -1,10 +1,12 @@
-*git checkout -b extensivepro-develop develop //建立一个新分支
+*git fetch upstream //获取最新远程分支
+
+*git checkout -b newBranchName upstream/develop //根据远程分支建立一个新分支
 
 *git pull https://github.com/extensivepro/expro-future.git develop //把要merge的分支pull到新建分支上
 
 *git checkout develop //切换到原来分支
 
-*git merge extensivepro-develop //把新pull的分支与原来分支合并
+*git merge newBranchName //把新pull的分支与原来分支合并
 
 *git push origin develop //推到上游
 ***
