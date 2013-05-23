@@ -13,6 +13,12 @@
 *git push upstream develop //把代码提交到上游
 ***
 
+$ git fetch
+$ git merge
+这2句命令等价于
+$ git pull 
+***
+
 发现冲突
 
 一般来讲，出现冲突时都会有“CONFLICT”字样：
