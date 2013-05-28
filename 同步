@@ -1,5 +1,7 @@
 同步已经fork的源代码：
 
-$ git fetch upstream 
+$ git fetch upstream  
 
 $ git pull https://github.com/extensivepro/expro-future develop  
+
+$ git push origin develop
