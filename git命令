@@ -5,6 +5,9 @@ git fetch origin
 git merge origin/master
 
 git push origin master
+
+git fetch origin
+git reset --hard origin/master //放弃本地更改个提交，抓取指向分支最后的地方
 ***
 
 git checkout -b design-mambers-new upstream/develop
