@@ -1,5 +1,5 @@
 还原数据库：
-mongorestore -h 127.0.0.1 -d passpro -directoryperdb /Users/chenzhe/passpro
+~ mongorestore -h 127.0.0.1 -d passpro -directoryperdb /Users/chenzhe/passpro
 
 -h:MongoDB所在服务器地址
 
