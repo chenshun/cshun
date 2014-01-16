@@ -1,0 +1,10 @@
+还原数据库：
+mongorestore -h 127.0.0.1 -d passpro -directoryperdb /Users/chenzhe/passpro
+
+-h:MongoDB所在服务器地址
+
+-d:需要恢复的数据库实例
+
+–directoryperdb：备份数据所在位置
+
+–drop：恢复的时候，先删除当前数据，然后恢复备份的数据。
