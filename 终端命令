@@ -1,3 +1,4 @@
 1. ps -ef|grep mongod  查看mongod进程
 2. pkill mongod  杀死mongod进程
 3. mongod --dbpath data &  后台运行mongod
+4. ssh root@192.168.0.116
