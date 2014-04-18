@@ -5,8 +5,7 @@
 5. db.devices.find({udid:"B91E3483-ABB3-4DEE-88BC-3B6693C2801B"})
 
 //npm镜像使用方法
-npm config set registry http://registry.cnpmjs.org/
+1. npm config set registry http://registry.cnpmjs.org/
 
-编辑 ~/.npmrc 加入下面内容 
-
+2. 编辑 ~/.npmrc 加入下面内容：
 registry = http://registry.cnpmjs.org
