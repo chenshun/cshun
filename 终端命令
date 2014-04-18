@@ -3,3 +3,10 @@
 3. mongod --dbpath data &  后台运行mongod
 4. ssh root@192.168.0.116
 5. db.devices.find({udid:"B91E3483-ABB3-4DEE-88BC-3B6693C2801B"})
+
+//npm镜像使用方法
+npm config set registry http://registry.cnpmjs.org/
+
+编辑 ~/.npmrc 加入下面内容 
+
+registry = http://registry.cnpmjs.org
